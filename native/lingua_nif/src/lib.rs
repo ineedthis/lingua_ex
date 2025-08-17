@@ -17,26 +17,7 @@ mod builder;
 mod wrapper;
 
 rustler::init! {
-    "Elixir.Lingua.Nif",
-    [
-        // language detection
-        // http://erlang.org/pipermail/erlang-questions/2018-October/096531.html
-        init,
-        run_detection,
-
-        // language utility functions
-        all_languages,
-        all_spoken_languages,
-        all_languages_with_arabic_script,
-        all_languages_with_cyrillic_script,
-        all_languages_with_devanagari_script,
-        all_languages_with_latin_script,
-        language_for_iso_code,
-        language_for_iso_code_639_1,
-        language_for_iso_code_639_3,
-        iso_code_639_1_for_language,
-        iso_code_639_3_for_language,
-    ]
+    "Elixir.Lingua.Nif"
 }
 
 // language detection
