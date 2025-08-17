@@ -27,7 +27,7 @@ defmodule Lingua.MixProject do
     [
       maintainers: ["Josh Rotenberg"],
       licenses: ["Apache-2.0"],
-      links: %{"GitHub" => "https://github.com/joshrotenberg/lingua_ex"},
+      links: %{"GitHub" => "https://github.com/ineedthis/lingua_ex"},
       name: :lingua,
       files: [
         "lib",

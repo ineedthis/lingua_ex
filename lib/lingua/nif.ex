@@ -7,8 +7,9 @@ defmodule Lingua.Nif do
     otp_app: :lingua,
     crate: "lingua_nif",
     base_url:
-      "https://github.com/joshrotenberg/lingua_ex/releases/download/v#{version}",
-    force_build: System.get_env("LINGUA_BUILD") in ["1", "true"],
+      "https://github.com/ineedthis/lingua_ex/releases/download/v#{version}",
+    force_build: System.get_env("LINGUA_BUILD") in ["1", "true"] or
+                 System.get_env("LINGUA_FORCE_BUILD") in ["1", "true"],
     version: version
 
   def init(), do: error()
