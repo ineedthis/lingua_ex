@@ -14,7 +14,7 @@ lingua = "1.7.2"
 rustler = "0.36.2"
 
 [features]
-default = ["nif_version_2_15"]
+default = ["nif_version_2_17"]
 nif_version_2_15 = []
 nif_version_2_16 = []
 nif_version_2_17 = []

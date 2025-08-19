@@ -8,9 +8,9 @@ defmodule Lingua.MixProject do
       app: :lingua,
       version: @version,
       # rustler aims to support the three latest Elixir and Erlang versions
-      # so with Elixir 1.15 this is 1.13, 1.14, and 1.15
-      # + Erlang/OTP 26, 25 and 24
-      elixir: "~> 1.13",
+      # so with Elixir 1.18 this is 1.16, 1.17, and 1.18
+      # + Erlang/OTP 28, 27 and 26 (updated for OTP 28 support)
+      elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
       description: description(),
       test_coverage: [tool: ExCoveralls],
