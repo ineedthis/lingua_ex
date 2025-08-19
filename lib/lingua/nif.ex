@@ -10,7 +10,8 @@ defmodule Lingua.Nif do
       "https://github.com/ineedthis/lingua_ex/releases/download/v#{version}",
     force_build: System.get_env("LINGUA_BUILD") in ["1", "true"] or
                  System.get_env("LINGUA_FORCE_BUILD") in ["1", "true"],
-    version: version
+    version: version,
+    nif_versions: ["2.17"]
 
   def init(), do: error()
 
